@@ -47,3 +47,15 @@ Website output: My AWS Web Application
 What I Learned
 
 While doing this project, I got practical experience with EC2, Load Balancer, Target Groups, Auto Scaling Groups and CloudWatch. I also understood how these services work together when hosting a web application on AWS.
+
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[Internet Users] --> B[Application Load Balancer]
+    B --> C[Target Group]
+    C --> D[EC2 Instance 1]
+    C --> E[EC2 Instance 2]
+    F[Auto Scaling Group] --> D
+    F --> E
+    G[CloudWatch] --> F
