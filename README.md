@@ -59,4 +59,5 @@ flowchart TD
     F[Auto Scaling Group] --> D
     F --> E
     G[CloudWatch] --> F
+
 ## project Screenshots
