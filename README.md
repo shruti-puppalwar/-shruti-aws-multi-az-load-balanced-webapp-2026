@@ -61,19 +61,25 @@ flowchart TD
     G[CloudWatch] --> F
 ```
 
-## project Screenshots
+## Project Screenshots
 
-Screenshot 2026-11-03 172005.png
+### 1. EC2 Instances
+![EC2 Instances](Screenshot%202026-11-03%20170813.png)
 
-Screenshot 2026-11-03 172005.png
+### 2. Target Group
+![Target Group](Screenshot%202026-11-03%20171103.png)
 
-Screenshot 2026-11-03 171417.png
+### 3. Load Balancer
+![Load Balancer](Screenshot%202026-11-03%20171417.png)
 
-Screenshot 2026-11-03 171627.png
+### 4. Website Output
+![Website Output](Screenshot%202026-11-03%20171627.png)
 
-Screenshot 2026-11-03 171627.png
+### 5. Auto Scaling Group
+![Auto Scaling Group](Screenshot%202026-11-03%20171800.png)
 
-Screenshot 2026-11-03 171627.png
+### 6. CloudWatch Metric
+![CloudWatch Metric](Screenshot%202026-11-03%20172005.png)
 
 
 
